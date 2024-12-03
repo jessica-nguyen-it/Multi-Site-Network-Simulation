@@ -17,7 +17,7 @@ This project is nearly complete, with only bug fixes and additional features lik
 ---
 
 ## Network Topology
-![Network Topology](screenshots/network_topology.png)  <-- Screenshot will be accessible when complete
+![Network Topology](screenshots/network_topology.png)  <-- Screenshot will be accessible when complete  
 This topology connects three sites with routers, switches, servers, and PCs, each assigned a subnet and services for a segmented and scalable network.
 
 ---
