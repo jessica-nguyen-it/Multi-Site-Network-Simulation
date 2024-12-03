@@ -18,7 +18,7 @@ This project is nearly complete, with only bug fixes and additional features lik
 
 ## Network Topology
 ![Network Topology](https://github.com/jessica-nguyen-it/Multi-Site-Network-Simulation/blob/main/Screenshots/Screenshot%202024-12-02%20200223.png)
-This topology connects three sites with routers, switches, servers, and PCs, each assigned a subnet and services for a segmented and scalable network.
+This topology connects three sites with routers, switches, servers, and PCs, each assigned a subnet and services for scalability.
 
 ---
 
