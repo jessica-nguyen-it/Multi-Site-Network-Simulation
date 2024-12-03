@@ -26,21 +26,21 @@ This topology connects three sites with routers, switches, servers, and PCs, eac
 
 ### 1. IP Addressing
 Each site is assigned a unique subnet to ensure proper segmentation:
-- **Site 1**: `192.168.40.0/24`
-- **Site 2**: `192.168.50.0/24`
-- **Site 3**: `192.168.30.0/24`
+- **Site 1**: `192.168.4.0/24`
+- **Site 2**: `192.168.5.0/24`
+- **Site 3**: `192.168.3.0/24`
 - **Router-to-Router Links**: Reserved IP ranges `192.168.1.0` and `192.168.2.0`.
 
 ### 2. Servers
 - **DNS Server**:
-  - Maps domain names to IP addresses (e.g., `google.com` -> `192.168.50.3`).
-  - Subnet: `192.168.50.0/24`
+  - Maps domain names to IP addresses (e.g., `google.com` -> `192.168.5.3`).
+  - Subnet: `192.168.5.0/24`
 - **HTTP Server**:
   - Hosts a sample website accessible via `google.com`.
-  - Subnet: `192.168.50.0/24`
+  - Subnet: `192.168.5.0/24`
 - **DHCP Servers**:
-  - **Site 1**: Allocates IPs within `192.168.40.0/24`.
-  - **Site 3**: Allocates IPs within `192.168.30.0/24`.
+  - **Site 1**: Allocates IPs within `192.168.4.0/24`.
+  - **Site 3**: Allocates IPs within `192.168.3.0/24`.
 
 ### 3. Routing Protocol
 - Implemented **RIP** for simplicity:
